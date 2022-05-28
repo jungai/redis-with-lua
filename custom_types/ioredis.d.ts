@@ -3,8 +3,8 @@ import { Callback, Result } from "ioredis";
 declare module "ioredis" {
   interface RedisCommander<Context> {
     getSongs(
+      num: number,
       key: string,
-      argv: string,
       callback?: Callback<string>
     ): Result<string, Context>;
   }
