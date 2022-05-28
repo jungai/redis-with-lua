@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["./custom_types/ioredis"]
+  },
+  "include": ["src/**/*.ts", "custom_types/**/*.d.ts"]
+}
